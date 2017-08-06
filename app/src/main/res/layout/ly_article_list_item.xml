@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_article_list_item_parent"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textview_article_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:paddingBottom="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="66dp"
+        android:paddingTop="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="kasndansfjkavkndksfaksndvlkasvadjkjvsdjfnjadbvajfnjnfjnfjkfajndfjas" />
+
+    <TextView
+        android:id="@+id/textview_article_item_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:textColor="@color/dark_gray"
+        android:textSize="14sp"
+        tools:text="22 March 2017" />
+
+</LinearLayout>
